@@ -1,0 +1,37 @@
+.slider {
+    margin-bottom: 50px;
+}
+
+.slider__items .slick-dots {
+    top: 0;
+    left: 0;
+}
+
+.slider__item {
+    padding-left: 50px;
+}
+
+.slider__img {
+    object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+    .slider__img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 640px) {
+    .slider__img {
+        height: 250px;
+    }
+    .slider__item {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .slider {
+        display: none;
+    }
+}
